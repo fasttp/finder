@@ -1,0 +1,13 @@
+[package]
+name = "xpr-finder"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+node-bindgen = { version = "4.0" }
+
+[build-dependencies]
+node-bindgen = { version = "4.0", features = ["build"] }
