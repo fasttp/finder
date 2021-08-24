@@ -1,9 +1,10 @@
-/**
- * (node-id, is-param-node-flag, param-value)
- */
-export declare type NodeTuple = [number, boolean, string];
+export declare type NodeId = number;
+export declare type IsParam = boolean;
+export declare type ParamValue = string;
 
-export declare interface Finder {
+export declare type NodeTuple = [NodeId, IsParam, ParamValue];
+
+export declare class Finder {
   createPath(path: string): number[];
   find(path: string): NodeTuple[];
 }

@@ -5,8 +5,7 @@
   "main": "dist/index.node",
   "types": "finder.d.ts",
   "scripts": {
-    "build": "nj-cli build --release",
-    "postbuild": ""
+    "build": "nj-cli build --release"
   },
   "repository": {
     "type": "git",
