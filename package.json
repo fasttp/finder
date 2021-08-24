@@ -1,6 +1,6 @@
 {
   "name": "@fasttp/finder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rust implementation of the core router find",
   "main": "dist/index.node",
   "types": "finder.d.ts",
